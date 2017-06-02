@@ -6,7 +6,7 @@ local json = require("json")
 local bg = display.newRect( display.contentCenterX, display.contentCenterY, display.actualContentWidth, display.actualContentHeight )
 bg:setFillColor( 1,.5,0 )
 
-local title = display.newText( {text = "Firebase Config", fontSize = 30} )
+local title = display.newText( {text = "Firebase Database", fontSize = 30} )
 title.width, title.height = 300, 168
 title.x, title.y = display.contentCenterX, 168*.5
 title:setFillColor(1,0,0)
